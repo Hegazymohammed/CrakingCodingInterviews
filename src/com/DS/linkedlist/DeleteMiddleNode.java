@@ -1,5 +1,6 @@
 public class DeleteMiddleNode{
 
+  //using the techenique of slow and fast pointer it takes o(n)time and o(1)memory
   public void delete(Node head){
         Node fast=head ;
         Node slow=head;
@@ -14,5 +15,7 @@ public class DeleteMiddleNode{
         prev.next=prev.next.next;
 
     }
+
   
+  //there is other ways to solve this proplem takes also o(n)time and o(1)memeory
 }
